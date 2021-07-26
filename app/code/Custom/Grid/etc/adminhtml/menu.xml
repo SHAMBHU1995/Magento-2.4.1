@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Custom. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="custom::base" title="Custom" module="Custom_Grid" sortOrder="90" resource="Custom_Grid::sample"/>
+        <add id="custom_grid::grid" title="Items" module="Custom_Grid" sortOrder="10" parent="custom::base" action="custom_grid/items/" resource="Custom_Grid::items"/>
+    </menu>
+</config>
